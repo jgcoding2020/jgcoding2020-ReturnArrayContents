@@ -32,7 +32,7 @@ public class ReturnArrayContents {
 
         for (int i = 0; i < nums.length; i++)
             str += String.valueOf(nums[i]) + " ";
-            str.trim();
+        str.trim();
         return str;
     }
 }
